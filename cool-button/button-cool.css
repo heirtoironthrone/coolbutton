@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    font-family: monospace;
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.button-border{
+    background: linear-gradient(115deg,rgb(118, 26, 161),rgb(119, 21, 59),blue,yellow);
+    padding: 2px;
+}
+.button{
+    border: none;
+    color: rgba(255, 255, 255, 0.836);
+    background-color: rgb(66, 64, 64);
+    padding: 1em 1.5em;
+    letter-spacing: .1em;
+    font-weight: bold;
+    
+}
+
+.button-border:hover{
+    transform:scale(1.1);
+    background: linear-gradient(230deg,rgb(118, 26, 161),rgb(119, 21, 59),blue,yellow);
+}
+.button-border:hover .button{
+    padding: 1.1em 1.6em;
+    color: #fff;
+}
